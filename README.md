@@ -46,7 +46,6 @@ This app provides a `Docker` file for easy deployment. `Docker` is the recommend
 
 ## Installation/Configuration
 1. Clone this repository with `git clone [repository name]`. To find the repository name, click the green `Code` button above the repository files. Then, the dropdown menu will show the https domain name. Click the copy button to the right of the domain name to get the value to replace [repository name] placeholder.
-![git-clone.png](git-clone.png)
 2. Rename the `.env_sample` file to `.env`.
 3. Add the Control Hub Webhook `Secret Token` to `.env` from the prerequisites section.
 ```dotenv
