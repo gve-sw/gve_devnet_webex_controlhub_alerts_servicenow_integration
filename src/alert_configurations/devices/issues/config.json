@@ -1,0 +1,62 @@
+{
+  "microphonesconnected": {
+    "description": "No microphones are connected to this device.",
+    "severity": 2,
+    "comments": "",
+    "caller_id": "",
+    "impact": 2,
+    "urgency": 2,
+    "category": "",
+    "subcategory": ""
+  },
+  "camerapairing": {
+    "description": "The system can't connect to its camera. Check the cable connection, or download device logs and examine the camera.log file.",
+    "severity": 2,
+    "comments": "",
+    "caller_id": "",
+    "impact": 2,
+    "urgency": 2,
+    "category": "",
+    "subcategory": ""
+  },
+  "missingdisplay": {
+    "description": "One or more of the required displays was not detected. Users may not see remote participants or the shared content. Check the connections to all displays.",
+    "severity": 2,
+    "comments": "",
+    "caller_id": "",
+    "impact": 2,
+    "urgency": 2,
+    "category": "",
+    "subcategory": ""
+  },
+  "controlsystemconnection": {
+    "description": "The device is configured to have a control system connected, but none are detected at the moment. Please check if there is a control system connected, and whether the connection is working as it should.",
+    "severity": 2,
+    "comments": "",
+    "caller_id": "",
+    "impact": 2,
+    "urgency": 2,
+    "category": "",
+    "subcategory": ""
+  },
+  "touchpanelconnection": {
+    "description": "There is no touch panel connected to the device. Check the cable connecting the touch panel to the device.",
+    "severity": 2,
+    "comments": "",
+    "caller_id": "",
+    "impact": 2,
+    "urgency": 2,
+    "category": "",
+    "subcategory": ""
+  },
+  "osdvideooutput": {
+    "description": "Verify that the main display is turned on and connected to the correct display output on the video device.",
+    "severity": 2,
+    "comments": "",
+    "caller_id": "",
+    "impact": 2,
+    "urgency": 2,
+    "category": "",
+    "subcategory": ""
+  }
+}

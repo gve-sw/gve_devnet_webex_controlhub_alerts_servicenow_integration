@@ -1,0 +1,18 @@
+version: "3.5"
+
+services:
+  gve_devnet_webex_controlhub_alerts_servicenow_integration:
+    image: ghcr.io/gve-sw/gve_devnet_webex_controlhub_alerts_servicenow_integration:latest
+#    build: .
+    container_name: gve_devnet_webex_controlhub_alerts_servicenow_integration
+    environment:
+      - WEBHOOK_SECRET=${WEBHOOK_SECRET}
+      - SERVICENOW_INSTANCE=${SERVICENOW_INSTANCE}
+      - SERVICENOW_USERNAME=${SERVICENOW_USERNAME}
+      - SERVICENOW_PASSWORD=${SERVICENOW_PASSWORD}
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./src/logs:/app/logs
+      - ./src/alert_configurations:/app/alert_configurations
+    restart: "always"

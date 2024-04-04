@@ -1,0 +1,12 @@
+{
+  "live_meeting_alert": {
+    "description": "",
+    "severity": 2,
+    "comments": "",
+    "caller_id": "",
+    "impact": 2,
+    "urgency": 2,
+    "category": "",
+    "subcategory": ""
+  }
+}

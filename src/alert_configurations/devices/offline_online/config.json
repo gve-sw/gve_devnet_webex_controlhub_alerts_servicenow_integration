@@ -1,0 +1,12 @@
+{
+  "offline": {
+    "description": "A Webex Device has been offline for more than 10 minutes.",
+    "severity": 2,
+    "comments": "",
+    "caller_id": "",
+    "impact": 2,
+    "urgency": 2,
+    "category": "",
+    "subcategory": ""
+  }
+}
